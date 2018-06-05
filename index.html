@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cristiani Rocha - Portifolio</title>
+
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body data-spy="scroll" data-target="#main-nav" data-offset="60">
+
+
+
+<header id="home">
+
+  <nav id="main-nav" class="navbar navbar-fixed-top navbar-inverse navbar-custom" role="navigation">
+    <div class="container">
+
+
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#home"><i id="logo" class="fa fa-home" aria-hidden="true"></i></a>
+
+
+      </div>
+
+    <div id="nav-menu" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#contact">Deixe seu Recado</a></li>
+        <li><a href="#recomendo">Indico</a></li>
+        <li><a href="#Sobre">Sobre mim</a></li>
+        <li><a href="#Contato">Contato</a></li>
+      </ul>
+    </div>
+
+
+
+    </div>
+  </nav>
+
+</header>
+
+
+  <div class="parallax first">
+      <div class="capa clearfix">
+        <div class="texto-capa">
+          <h1>Cris Rocha</h1>
+          <h2>Aprendiz de Sistemas para Internet e viajante...</h2>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <section class="contact" id="contact">
+
+      <div id="contact" class="parallax fourth ">
+        <div class="container dark-bg clearfix">
+
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2> </h2>
+                        <br />
+                    </div>
+                </div>
+
+
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary">Deixe seu Recado</h2>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form onsubmit="return validaFormularioContato()" name="contactForm" class="contactForm" id="contactForm">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Your name" required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="email" id="email" placeholder="Your E-mail Adress." required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control number" data-mask="(##) #####-####" maxlength="13" type="text" pattern="[0-9]" id="number" placeholder="Your Number." required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="subject" placeholder="Subject Matter of contact." required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message of contact." required="required"></textarea>
+                        </div>
+
+                        <p id="success" class="text-success"></p>
+                        <p id="error" class="text-danger"></p>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-send hvr-buzz">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <div id="recomendo" class="parallax second ">
+    <div class="container dark-bg clearfix">
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>Indico</h2>
+                    <br />
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="fa fa-file-movie-o fa-5x" aria-hidden="true"></i>
+
+                    <h3>Filme</h3>
+                    <br />
+                    <p>
+                        Melhor filme da vida é o SwordFish, assista, vale a pena!
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-file-photo-o fa-5x" aria-hidden="true"></i>
+
+                    <h3>Fotos</h3>
+                    <br />
+                    <p>
+                        Todas as fotos do Portifolio foram de viagens que fiz, a primeira e a terceira são da viagem a Punta Cana, a segunda é de Natal e a última de João Pessoa.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-futbol-o fa-5x" aria-hidden="true"></i>
+
+                    <h3>São Paulo</h3>
+                    <br />
+                    <p>
+                        Tri mundial é aqui!
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-database fa-5x" aria-hidden="true"></i>
+
+                    <h3>Banco de Dados</h3>
+                    <br />
+                    <p>
+                        A melhor e mais legal matéria do curso de Sistemas para Internet.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+
+                  <h3>Github / GitLab</h3>
+                  <br />
+                  <p>
+                    Github é uma ferramenta que aprendi a usar esse semestre e gostei demais, para projetos privados, indico o GitLab.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <p class="fa fa-tripadvisor fa-5x" aria-hidden="true"></p>
+
+                  <h3>Tripadvisor</h3>
+                  <br />
+                  <p>
+                    Para pesquisar hoteis ou lugares para comer é excelente, pois tem muitas avaliações de usuários que tornam a escolha mais certa.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4 ">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <span class="fa fa-youtube-play fa-5x" aria-hidden="true"></span>
+
+                  <h3>YouTube</h3>
+                  <br />
+                  <p>
+                    Um bom canal para ter aulas básicas de programação é o Curso em Video, mas se você quiser um entreterimento saudável, assista ao canal Novo Tempo, é ao vivo 24h.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            </div>
+
+  <div id="Sobre" class="scroll-panel">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2>Sobre mim</h2>
+          <img class="selfie img-responsive text-center" src="images/selfie.png" alt="Selfie">
+        </div>
+        <div class="col-md-8">
+
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#formacao">Formação</a></li>
+            <li><a data-toggle="tab" href="#experiencia">Experiência</a></li>
+            <li><a data-toggle="tab" href="#oquefaco">O que faço</a></li>
+            <li><a data-toggle="tab" href="#oquegosto">O que gosto</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="formacao" class="tab-pane fade in active">
+              <h3>Formação</h3>
+              <p>Estou no terceiro período do curso de Sistemas para Internet.</p>
+              <p>Possuo formação no curso de Commissária de Bordo da GF - Escola de Aviação. </p>
+              <p>Tenho curso técnico em Contabilidade.</p>
+
+            </div>
+            <div id="experiencia" class="tab-pane fade">
+              <h3>Experiência</h3>
+              <p>Minha experiência é toda, em sua maioria, em atendimento direto ao cliente e vendas. </p>
+            </div>
+            <div id="oquefaco" class="tab-pane fade">
+              <h3>O que faço</h3>
+              <p>Bem, no momento estou cursando Sistemas para Internet, estou no terceiro período.</p>
+              <p>Hoje trabalho como assistente administrativo, mas quero trabalhar na área de TI, para isso pretendo fazer uma pós em Banco de Dados, é a áarea pela qual me interesso.</p>
+            </div>
+            <div id="oquegosto" class="tab-pane fade">
+              <h3>O que eu gosto</h3>
+              <p>Aaaaaaaaaaaaamo viajar, viajar é a melhor coisa para se gastar dinheiro...</p>
+              <p>Também gosto muito de filmes e séries, animes, comer bem, hehehehee...</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div id="sol" class="parallax third">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 marcador">
+          <h1>.</h1>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+<footer id="Contato">
+  <div class="container footer clearfix">
+    <div class="row text-center">
+      <div class="col-sm-4 col-sm-offset-2">
+        <fieldset>
+          <legend><h3>Social</h3></legend>
+          <a target="_blank" href="https://www.facebook.com/chrys.rocha.18" class="social-media">
+          <i class="fa fa-facebook fa-3x social-icon"></i>
+          <a target="_blank" href="https://www.linkedin.com/in/cristiani-rocha-53377a38/" class="social-media">
+          <i class="fa fa-linkedin fa-3x social-icon"></i>
+          <a target="_blank" href="https://twitter.com/Chrys_Rocha" class="social-media">
+          <i class="fa fa-twitter fa-3x social-icon"></i>
+        </fieldset>
+      </div>
+      <div class="col-sm-4 col-sm-offset-1">
+        <fieldset>
+          <legend><h3>Contato</h3></legend>
+          <a target="_blank" href="" class="social-media">
+          <i class="fa fa-envelope contact-icon">  chrys1979@gmail.com</i>
+
+          <a target="_blank" href="https://web.whatsapp.com" class="social-media">
+          <i class="fa fa-whatsapp contact-icon">  (83) 9 8888-8888</i>
+        </fieldset>
+      </div>
+
+
+    </div>
+  </div>
+</footer>
+
+<script src="js/functions.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/puremask.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<script>
+    PureMask.format(".number", true);
+</script>
+
+    <div class="copyright text-center">
+        <div class="container">
+            <small>Copyright &copy; <a target="_blank" href="https://github.com/crisrs1979">Cris Rocha</a>, 2018.</small>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
